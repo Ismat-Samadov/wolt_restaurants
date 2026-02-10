@@ -24,10 +24,10 @@ BASE_URL = "https://consumer-api.wolt.com"
 RESTAURANTS_API = f"{BASE_URL}/v1/pages/restaurants"
 ITEMS_API = f"{BASE_URL}/consumer-api/consumer-assortment/v1/venues/slug"
 
-# Headers from examples
+# Headers from examples (modified to avoid brotli decoding issues)
 HEADERS = {
     'accept': 'application/json, text/plain, */*',
-    'accept-encoding': 'gzip, deflate, br, zstd',
+    'accept-encoding': 'gzip, deflate',  # Removed 'br, zstd' to fix Baku decoding error
     'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
     'app-language': 'az',
     'client-version': '1.16.75-PR20787',
