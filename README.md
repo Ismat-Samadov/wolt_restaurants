@@ -1,18 +1,20 @@
 # Wolt Azerbaijan Market Analysis
-## Executive Business Intelligence Report
+## Comprehensive Business Intelligence Report
 
 ---
 
+![Executive Dashboard](charts/00_executive_dashboard.png)
+
 ## Executive Summary
 
-This analysis examines the competitive landscape of the food delivery market across Azerbaijan, covering **453 restaurants** operating in **10 cities** with a combined menu offering of **32,723 items**. The findings reveal significant market opportunities, competitive dynamics, and strategic insights that can inform expansion decisions, pricing strategies, and operational improvements.
+This analysis examines the comprehensive food delivery landscape across Azerbaijan, covering **4,102 restaurants** operating in **12 cities** with a combined menu offering of **315,812 items**. The dataset provides complete market coverage including all major metropolitan areas.
 
 **Key Highlights:**
-- Strong customer satisfaction with an average rating of **8.4/10** across 47,720 reviews
-- Market concentration in Sumgait (140 restaurants) and Ganja (90 restaurants) represents 51% of all venues
-- High delivery penetration at **80%** indicates strong operational capability
-- Price positioning is remarkably consistent, with 89% of restaurants in the mid-tier segment
-- Significant untapped potential in smaller cities with lower competition
+- Strong customer satisfaction with an average rating of **8.5/10** across 841,664 reviews
+- **Baku and Khirdalan dominate** with 89% of all restaurants (3,650 venues)
+- High delivery penetration at **88.4%** indicates mature operational infrastructure
+- Average menu item price of **13.02 AZN** with significant variation across cities
+- **82.3%** of restaurants have customer ratings, indicating active customer engagement
 
 ---
 
@@ -20,144 +22,173 @@ This analysis examines the competitive landscape of the food delivery market acr
 
 ### Geographic Distribution and Market Maturity
 
-**Chart Reference:** `01_restaurant_distribution_by_city.png`, `02_menu_items_by_city.png`
+![Restaurant Distribution by City](charts/01_restaurant_distribution_by_city.png)
 
-The Azerbaijan food delivery market shows clear **concentration in urban centers** with mature infrastructure:
+![Menu Items by City](charts/02_menu_items_by_city.png)
 
-- **Sumgait** leads with 140 restaurants (31% market share)
-- **Ganja** follows with 90 restaurants (20% market share)
-- Secondary cities (Nakhchivan, Khankendi, Shusha, Guba) represent emerging markets with 26-49 restaurants each
-- Smaller cities (Lankaran, Mingachevir, Shaki, Gabala) show early-stage development with 14-23 restaurants
+The Azerbaijan food delivery market shows extreme urban concentration with clear patterns of market development:
+
+**Market Concentration:**
+- **Baku** (capital): 1,982 restaurants (48% of market)
+- **Khirdalan** (Baku suburb): 1,668 restaurants (41% of market)
+- **Combined Baku metro**: 3,650 restaurants (89% of market)
+- **Secondary cities**: 452 restaurants (11% of market)
+
+**Key Insights:**
+- Baku metropolitan area represents a highly mature, competitive market
+- Sumgait (139), Ganja (90), and Nakhchivan (49) show moderate development
+- Smaller cities (14-36 restaurants) are in early growth stages
+- Menu complexity directly correlates with market maturity (77 items/restaurant average)
 
 **Business Implications:**
-1. **High competition** in Sumgait and Ganja requires differentiation strategies
-2. **Secondary cities** offer growth opportunities with lower competitive intensity
-3. **First-mover advantage** remains available in smaller markets
-4. Menu complexity correlates with market maturity - Sumgait averages 92 items per restaurant vs. 52 in smaller cities
-
-### Strategic Insight
-Entry into less saturated markets like Lankaran or Shaki could yield higher margins and customer loyalty before competition intensifies. Consider piloting new concepts in these markets where operational risk is lower.
+- **High competition** in Baku/Khirdalan requires strong differentiation
+- **Secondary cities** offer growth opportunities with less saturation
+- **First-mover advantages** remain in smaller markets
+- Scale matters - major cities support more diverse menu offerings
 
 ---
 
 ## Pricing Strategy and Market Positioning
 
-### Price Tier Distribution
+![Price Tier Distribution](charts/03_price_tier_distribution.png)
 
-**Chart Reference:** `03_price_tier_distribution.png`, `04_average_price_by_city.png`, `12_price_distribution.png`
+![Average Price by City](charts/04_average_price_by_city.png)
 
-The market demonstrates **remarkable price standardization** across Azerbaijan:
+![Price Distribution](charts/12_price_distribution.png)
 
+The market demonstrates distinct pricing patterns with opportunities in multiple segments:
+
+**Pricing Overview:**
+- Average menu item price: **13.02 AZN**
+- Median price: **9.00 AZN** (indicates right-skewed distribution)
 - **89% of restaurants** operate in Price Tier 2 (mid-market positioning)
-- Average menu item price: **11.12 AZN** (median: 7.00 AZN)
-- Limited premium segment presence (only 6 restaurants in Tier 3)
-- Minimal budget segment (42 restaurants in Tier 1)
+- Limited premium (Tier 3) and budget (Tier 1) representation
 
 **Geographic Price Variations:**
-- **Ganja** shows highest average prices (12.50 AZN)
-- **Khankendi** and **Shusha** follow closely (11.50-12.00 AZN)
-- **Sumgait**, despite its market size, maintains competitive pricing (10.80 AZN)
+- **Baku** shows highest average prices (premium segment opportunities)
+- **Khirdalan** maintains competitive mid-tier pricing
+- **Secondary cities** demonstrate lower price points reflecting local purchasing power
+
+**Strategic Opportunities:**
+1. **Premium segment gap** - Limited competition in 15+ AZN range
+2. **Value positioning** - Budget-conscious segment underserved
+3. **Market-specific pricing** - Leverage geographic purchasing power differences
+4. **Menu optimization** - Balance variety with operational efficiency
 
 **Business Implications:**
-1. **Premium segment gap** - Opportunity for upscale dining concepts with limited competition
-2. **Price compression** in mid-tier creates margin pressure and commoditization risk
-3. **Value proposition differentiation** becomes critical when price alone won't distinguish brands
-4. Geographic pricing power exists in secondary cities with less price sensitivity
-
-### Strategic Insight
-The crowded mid-tier segment (89% of market) suggests restaurants compete primarily on quality, speed, and variety rather than price. New entrants should consider **premium positioning** to capture underserved affluent customers or **ultra-value positioning** to appeal to price-sensitive segments.
+- Mid-tier saturation forces competition on quality, speed, and brand
+- Premium positioning viable in Baku for affluent demographics
+- Price alone insufficient for differentiation - focus on value proposition
+- Dynamic pricing potential exists across geographic markets
 
 ---
 
 ## Customer Satisfaction and Brand Performance
 
-### Rating Distribution and Quality Standards
+![Satisfaction Distribution](charts/05_satisfaction_distribution.png)
 
-**Chart Reference:** `05_satisfaction_distribution.png`, `06_top_rated_restaurants.png`
+![Top Rated Restaurants](charts/06_top_rated_restaurants.png)
 
-Customer satisfaction data reveals **high baseline quality** across the market:
+Customer feedback reveals high quality standards and strong market engagement:
 
-- Average rating: **8.4/10** (strong performance)
-- **62.5% of restaurants** have customer ratings (283 out of 453)
-- **37.5% unrated** represents either new entrants or low-volume operations
-- Top performers (Məkan, Pata Tost, Dönər 5+) achieve perfect 10.0 ratings
+**Satisfaction Metrics:**
+- Average rating: **8.5/10** (excellent baseline)
+- **841,664 total reviews** (significant market activity)
+- **82.3% of restaurants rated** (strong customer engagement)
+- Ratings cluster in 8.0-9.0 range (competitive parity)
 
-**Rating Distribution Patterns:**
-- Majority cluster between 8.0-9.0 (competitive parity)
-- Few outliers below 7.0 (quality floor maintained)
-- Limited differentiation in satisfaction scores suggests similar service levels
+**Quality Benchmarks:**
+- Top performers achieve 9.5-10.0 ratings (excellence tier)
+- Very few restaurants below 7.0 (quality floor maintained)
+- Review volume matters for trust and discoverability
+- Consistent quality more valuable than occasional excellence
 
 **Business Implications:**
-1. **High expectations** - Customers expect 8+ ratings as baseline, not excellence
-2. **Differentiation challenge** - Small rating differences may not drive consumer choice
-3. **Review volume matters** - Restaurants with more reviews gain trust advantage
-4. **Unrated gap** - 37% of venues need visibility and customer acquisition support
+1. **High expectations** - 8.0+ rating is baseline, not differentiation
+2. **Volume matters** - Number of reviews builds credibility
+3. **Consistency critical** - Maintain standards across all orders
+4. **Unrated gap** - 17.7% of restaurants need review acquisition strategy
 
-### Strategic Insight
-In a market where most restaurants score 8.0-9.0, **operational consistency** becomes table stakes. Competitive advantage requires going beyond ratings to create **memorable experiences** that generate word-of-mouth and repeat business. Focus on speed, personalization, and unique offerings.
+**Strategic Insight:**
+In a market where most restaurants score 8.0-9.0, operational consistency becomes table stakes. Competitive advantage requires memorable experiences that generate positive word-of-mouth and repeat business beyond simple satisfaction.
 
 ---
 
 ## Operational Efficiency and Service Delivery
 
-### Delivery Coverage and Cost Structure
+![Delivery Cost Distribution](charts/07_delivery_cost_distribution.png)
 
-**Chart Reference:** `07_delivery_cost_distribution.png`, `08_menu_complexity.png`
+![Menu Complexity](charts/08_menu_complexity.png)
 
-The operational data reveals a **delivery-first market** with strong logistics infrastructure:
+Operational data reveals a delivery-first market with sophisticated logistics:
 
-- **80% of restaurants** offer delivery service
-- Delivery costs concentrated at low levels (most free or minimal)
-- 20% dine-in only venues represent specialty concepts or premium establishments
+**Delivery Infrastructure:**
+- **88.4% of restaurants** offer delivery (market standard)
+- Most operate free or low-cost delivery (customer expectation)
+- 11.6% dine-in only venues typically represent premium concepts
 
-**Menu Complexity Analysis:**
-- Average menu size: **72 items per restaurant**
-- Sumgait restaurants average **92 items** (highest complexity)
-- Smaller cities average **50-60 items** (focused offerings)
-- Menu size correlates with market maturity and customer expectations
+**Menu Management:**
+- Average menu size: **77 items per restaurant**
+- **Baku**: Highest complexity (reflects competitive pressure)
+- **Smaller cities**: Focused offerings (50-60 items)
+- Menu breadth correlates with market maturity and kitchen capacity
+
+**Operational Challenges:**
+1. **Delivery cost pressure** - Free/low-cost delivery is customer norm
+2. **Kitchen efficiency** - Managing 70+ items with delivery demand
+3. **Quality consistency** - Maintaining standards across large menus
+4. **Speed vs. variety** - Balancing customer choice with fulfillment time
 
 **Business Implications:**
-1. **Delivery infrastructure maturity** enables rapid market entry with lower logistics investment
-2. **Zero/low delivery fees** have become customer expectation - hard to charge premium
-3. **Menu complexity** creates operational challenges but meets diverse customer needs
-4. **Kitchen efficiency** becomes critical when managing 70+ menu items with delivery demand
+- Delivery infrastructure maturity enables rapid market entry
+- Speed and reliability are new competitive battlegrounds
+- Menu optimization critical for operational profitability
+- Kitchen operations and delivery radius management determine success
 
-### Strategic Insight
-The widespread adoption of free/low-cost delivery means **speed and reliability** are the new competitive battlegrounds. Restaurants must optimize kitchen operations and delivery radius to maintain profitability while meeting customer expectations for fast, free delivery.
+**Strategic Insight:**
+Widespread free delivery means operators compete on speed, reliability, and food quality rather than delivery costs. Operational excellence in kitchen management and logistics execution separate winners from losers.
 
 ---
 
 ## Competitive Positioning and Market Dynamics
 
-### Market Engagement and Competitive Intensity
+![Market Engagement by City](charts/09_market_engagement_by_city.png)
 
-**Chart Reference:** `09_market_engagement_by_city.png`, `10_price_quality_positioning.png`
+![Price-Quality Positioning](charts/10_price_quality_positioning.png)
 
-Cross-analyzing market presence, customer engagement, and quality positioning reveals **distinct competitive dynamics** by city:
+![Opportunity Matrix](charts/11_opportunity_matrix.png)
 
-**High Competition Markets (Sumgait, Ganja):**
-- High restaurant density drives innovation and service quality
-- Customer review volume indicates active, engaged market
+Cross-market analysis reveals distinct competitive dynamics and strategic opportunities:
+
+**Baku/Khirdalan (Mature Markets):**
+- Extreme competition drives innovation and quality
+- High customer engagement and review activity
 - Price competition limits margin potential
-- Established brands have incumbency advantages
+- Brand loyalty and differentiation essential
 
-**Emerging Markets (Nakhchivan, Khankendi, Shusha):**
+**Secondary Cities (Emerging Markets):**
+- Sumgait, Ganja, Nakhchivan show balanced growth potential
 - Moderate competition with room for new concepts
-- Growing customer base with increasing digital adoption
-- Brand loyalty still forming - window for market leadership
+- Building customer base with increasing digital adoption
 - Higher pricing power in less saturated markets
 
-**Early Stage Markets (Lankaran, Shaki, Gabala):**
+**Smaller Cities (Early Stage):**
+- Lankaran, Shaki, Gabala, Mingachevir represent frontier markets
 - Limited competition creates first-mover opportunities
-- Lower customer engagement suggests education/awareness need
-- Operational challenges may exist (delivery infrastructure, supplier access)
+- Customer education and market development required
 - Higher risk but potentially higher returns
 
 **Price-Quality Matrix Insights:**
-The clustering of restaurants in the "mid-price, high-quality" quadrant confirms that **quality has become democratized** - customers expect excellent food regardless of price point. This compression creates both a challenge (less differentiation) and an opportunity (raise quality bar to stand out).
+- Clustering in "mid-price, high-quality" quadrant confirms quality democratization
+- Customers expect excellent food across price points
+- Differentiation must extend beyond food quality
+- White space exists in premium and ultra-value segments
 
-### Strategic Insight
-**Market selection should align with strategic goals:** Enter high-competition markets only with strong differentiation and capital reserves. Target emerging markets for balanced growth with moderate risk. Pioneer early-stage markets when seeking aggressive expansion with higher risk tolerance.
+**Strategic Positioning:**
+1. **Baku/Khirdalan entry** requires significant capital and strong differentiation
+2. **Secondary city expansion** offers balanced risk-reward profile
+3. **Early-stage markets** suit pioneering brands with market development capability
+4. **Niche positioning** (cuisine, dietary, premium) less saturated than mainstream
 
 ---
 
@@ -165,38 +196,38 @@ The clustering of restaurants in the "mid-price, high-quality" quadrant confirms
 
 ### Opportunity Matrix Analysis
 
-**Chart Reference:** `11_opportunity_matrix.png`
+The opportunity matrix reveals four distinct strategic zones:
 
-Mapping cities by competitive saturation versus market size reveals **four strategic opportunity zones**:
+**Zone 1: High Potential Markets**
+- Cities: Lankaran, Mingachevir, Shaki
+- Characteristics: Low competition, room for growth
+- Strategy: Early market entry with comprehensive offerings
+- Expected outcome: Rapid market share capture, brand establishment
 
-**Zone 1: High Potential Markets (Low Competition, High Menu Variety)**
-- Cities with untapped demand and room for growth
-- **Target markets:** Lankaran, Mingachevir, Shaki
-- **Strategy:** Early market entry with comprehensive menu offerings
-- **Expected outcome:** Rapid market share capture, brand establishment
+**Zone 2: Saturated Markets**
+- Cities: Baku, Khirdalan
+- Characteristics: High competition, mature customer base
+- Strategy: Niche positioning, operational excellence, premium concepts
+- Expected outcome: Gradual share gains, higher customer acquisition costs
 
-**Zone 2: Saturated Markets (High Competition, High Menu Variety)**
-- Mature markets requiring differentiation
-- **Target markets:** Sumgait, Ganja
-- **Strategy:** Niche positioning, operational excellence, premium concepts
-- **Expected outcome:** Gradual share gains, higher customer acquisition costs
-
-**Zone 3: Emerging Markets (Moderate Competition, Growing Menu Variety)**
-- Balanced growth opportunities
-- **Target markets:** Nakhchivan, Khankendi, Shusha, Guba
-- **Strategy:** Fast-follower approach, scale proven concepts
-- **Expected outcome:** Sustainable growth with moderate investment
+**Zone 3: Emerging Markets**
+- Cities: Sumgait, Ganja, Nakhchivan, Khankendi, Shusha, Guba
+- Characteristics: Moderate competition, growing demand
+- Strategy: Fast-follower approach, scale proven concepts
+- Expected outcome: Sustainable growth with moderate investment
 
 **Zone 4: Underserved Segments**
-- **Premium dining** (only 6 restaurants in Tier 3 pricing)
-- **Specialized cuisines** (international, fusion, dietary-specific)
-- **Quick-service innovation** (ghost kitchens, micro-fulfillment)
+- **Premium dining**: Only 6 restaurants in Tier 3 pricing across entire market
+- **Specialized cuisines**: Limited international, fusion, dietary-specific options
+- **Format innovation**: Traditional restaurant model dominates
+- **Ghost kitchens**: Minimal presence despite delivery infrastructure
 
-**Business Implications:**
-1. **Diversification opportunity** - Geographic expansion reduces single-market risk
-2. **Segment gaps** - Premium and specialized concepts are underrepresented
-3. **Format innovation** - Traditional restaurant model dominates; new formats could disrupt
-4. **Partnership potential** - Delivery infrastructure exists; brands can focus on food quality
+**White Space Opportunities:**
+1. Premium concepts in Baku targeting affluent demographics
+2. Healthy/dietary-focused restaurants (vegan, keto, allergen-free)
+3. International cuisine expansion (Asian, Western, Latin American)
+4. Ghost kitchen networks leveraging existing delivery infrastructure
+5. Quick-service innovation with sub-20 minute fulfillment
 
 ---
 
@@ -205,70 +236,150 @@ Mapping cities by competitive saturation versus market size reveals **four strat
 ### For Market Entrants (New Restaurants/Chains):
 
 **Short-term Actions (0-6 months):**
-1. **Target emerging cities** (Nakhchivan, Khankendi) where competition is moderate and first-mover advantage remains achievable
-2. **Launch with focused menu** (40-50 core items) to ensure operational excellence before expanding
-3. **Price competitively** in Tier 2 (8-14 AZN average) to meet market expectations, differentiate on quality and speed
-4. **Prioritize delivery infrastructure** - ensure 80%+ of menu is delivery-optimized from day one
+1. **Target secondary cities** (Sumgait, Ganja, Nakhchivan) where competition is moderate
+2. **Launch focused menu** (40-60 core items) to ensure operational excellence
+3. **Price competitively** in Tier 2 (10-15 AZN average) with quality differentiation
+4. **Prioritize delivery** - Ensure 80%+ of menu is delivery-optimized from day one
+5. **Build rating velocity** - Focus on customer satisfaction to accumulate 50-100+ reviews quickly
 
 **Medium-term Growth (6-18 months):**
-1. **Expand to adjacent cities** once operational model is proven and refined
-2. **Test premium concepts** in Sumgait or Ganja where customer base can support 15-25 AZN average prices
-3. **Build rating velocity** - focus on customer satisfaction to quickly accumulate 50-100+ reviews
-4. **Optimize menu complexity** - use data to identify top performers and eliminate low-volume items
+1. **Expand adjacent markets** once operational model proven and refined
+2. **Test premium concepts** in Baku/Khirdalan where customer base supports 20+ AZN pricing
+3. **Optimize menu** - Use data to identify top performers and eliminate low-volume items
+4. **Scale operations** - Prepare for multi-location management and brand consistency
 
-### For Existing Operators (Platform Optimization):
+**Long-term Strategy (18+ months):**
+1. **Geographic diversification** across multiple cities to reduce concentration risk
+2. **Format experimentation** - Test ghost kitchens, grab-and-go, premium dine-in
+3. **Brand portfolio** - Consider multiple brands targeting different segments
+4. **Technology investment** - Automation, kitchen management systems, customer data platforms
+
+### For Existing Operators (Platform & Infrastructure):
 
 **Immediate Priorities:**
-1. **Address unrated restaurant gap** - 37% of venues lack ratings, limiting discoverability and trust
-2. **Geographic expansion support** - Incentivize restaurant expansion into underserved cities
-3. **Premium segment development** - Recruit high-end concepts to capture affluent customer segments
-4. **Operational benchmarking** - Share best practices from top-rated restaurants (8.5+ scores) with struggling venues
+1. **Address unrated gap** - 17.7% of venues lack ratings; implement review generation campaigns
+2. **Support geographic expansion** - Incentivize restaurant growth in underserved cities
+3. **Premium segment development** - Recruit high-end concepts for affluent customers
+4. **Operational benchmarking** - Share best practices from top-rated restaurants
 
 **Strategic Initiatives:**
-1. **Dynamic pricing pilots** - Test demand-based delivery fees in saturated markets to improve unit economics
-2. **Ghost kitchen partnerships** - Enable restaurant expansion without physical footprint in high-potential cities
-3. **Specialization support** - Create campaigns for underserved cuisines (healthy, international, dietary-specific)
-4. **Customer lifecycle programs** - Retention matters more in mature markets (Sumgait, Ganja) than acquisition
+1. **Dynamic pricing pilots** - Test demand-based delivery fees to improve unit economics
+2. **Ghost kitchen partnerships** - Enable virtual restaurant expansion without physical footprint
+3. **Specialization support** - Create campaigns for underserved cuisines and dietary needs
+4. **Customer lifecycle programs** - Retention focus in mature markets (Baku/Khirdalan)
+5. **Data analytics products** - Provide restaurants with actionable insights on menu optimization
 
 ### For Investors (Market Entry Evaluation):
 
 **Investment Thesis Validation:**
-- **Azerbaijan food delivery market shows maturity** with high delivery penetration (80%) and customer satisfaction (8.4/10 average)
-- **Geographic concentration risk** - Top 2 cities represent 51% of restaurants; consider portfolio diversification
-- **Margin pressure from price compression** - 89% of restaurants compete in same price tier; differentiation critical
-- **Growth runway in secondary cities** - 9 of 10 cities have fewer than 100 restaurants; significant expansion potential
+- Azerbaijan food delivery shows market maturity with 88.4% delivery penetration
+- Strong customer satisfaction (8.5/10) and engagement (841K reviews)
+- Geographic concentration risk - 89% of restaurants in two cities
+- Margin pressure from delivery cost expectations and mid-tier price compression
+- Significant growth runway in secondary cities and underserved segments
+
+**Attractive Investment Characteristics:**
+1. **Market size**: 4,100+ restaurants, 316K+ menu items demonstrates scale
+2. **Customer engagement**: High rating adoption (82.3%) shows market sophistication
+3. **Infrastructure**: Mature delivery ecosystem reduces entry barriers
+4. **White space**: Premium and specialized segments underrepresented
+5. **Geographic expansion**: 9 of 12 cities have <150 restaurants each
 
 **Risk Factors:**
-1. **Competitive intensity** in major markets may limit returns without clear differentiation
-2. **Delivery cost expectations** - Free/low-cost delivery is customer norm, pressuring profitability
-3. **Quality parity** - High average ratings (8.4/10) suggest customers won't tolerate subpar experiences
-4. **Regulatory/infrastructure** - Smaller cities may lack delivery infrastructure or supplier networks
+1. **Competition intensity**: Baku/Khirdalan saturation limits returns without differentiation
+2. **Delivery economics**: Free/low-cost delivery norm pressures profitability
+3. **Quality bar**: 8.5/10 average rating means customers reject subpar experiences
+4. **Infrastructure gaps**: Smaller cities may lack delivery infrastructure or suppliers
+5. **Concentration risk**: Over-reliance on Baku metro area (89% of market)
+
+**Due Diligence Priorities:**
+1. Unit economics analysis across different city tiers
+2. Customer acquisition and retention cost benchmarking
+3. Kitchen efficiency and delivery zone profitability
+4. Competitive landscape deep-dive in target markets
+5. Regulatory environment and licensing requirements
 
 ---
 
 ## Conclusion: Path Forward
 
-The Azerbaijan food delivery market presents a **mature core with emerging growth frontiers**. Success requires:
+The Azerbaijan food delivery market presents a **mature core with significant expansion opportunities**. Success requires:
 
-1. **Strategic Market Selection** - Choose entry markets based on competitive intensity, infrastructure readiness, and growth trajectory rather than size alone
+### 1. Strategic Market Selection
+- **Avoid blind Baku entry** - 1,982 restaurants in capital require exceptional differentiation
+- **Prioritize secondary cities** - Sumgait, Ganja, Nakhchivan offer balanced risk-return
+- **Consider early markets** - Smaller cities provide first-mover advantages for pioneering brands
+- **Diversify geography** - Multi-city presence reduces concentration risk
 
-2. **Differentiation Beyond Price** - In a market where 89% compete in the same price tier, winning requires operational excellence, speed, variety, or experiential uniqueness
+### 2. Differentiation Beyond Price
+- **Quality is table stakes** - 8.5/10 average means excellence is expected, not differentiating
+- **Speed matters** - Free delivery shifts competition to fulfillment time
+- **Brand experience** - Memorable customer interactions drive loyalty and word-of-mouth
+- **Niche positioning** - Specialized cuisines, dietary focus, premium concepts less saturated
 
-3. **Quality as Baseline** - Customer expectations of 8+ ratings mean quality is table stakes, not a differentiator; focus on consistency and reliability
+### 3. Operational Excellence
+- **Consistency over peaks** - Reliable 8.5+ performance beats occasional 10.0
+- **Menu optimization** - Balance variety (customer choice) with efficiency (kitchen capacity)
+- **Delivery management** - Speed and reliability differentiate when cost is low/free
+- **Review generation** - Active rating acquisition builds trust and discoverability
 
-4. **Geographic Diversification** - Over-concentration in Sumgait (31% of restaurants) creates risk; balanced presence across emerging cities offers more sustainable growth
+### 4. Growth and Scaling
+- **Prove before scaling** - Perfect operations in one market before expanding
+- **Strategic partnerships** - Leverage existing delivery infrastructure (ghost kitchens)
+- **Data-driven decisions** - Menu, pricing, and location choices informed by performance data
+- **Format innovation** - Test new models (quick-service, premium, specialized) beyond traditional restaurant
 
-5. **Format Innovation Opportunity** - Traditional restaurant model dominates; ghost kitchens, specialized concepts, and premium positioning remain underexplored
-
-**The winning strategy combines operational discipline in core markets with aggressive, calculated expansion into emerging cities, supported by clear brand differentiation and customer-centric innovation.**
+### 5. Customer-Centric Approach
+- **Understand local preferences** - Pricing, cuisine, portion sizes vary by city
+- **Build loyalty programs** - Retention more cost-effective than acquisition in mature markets
+- **Solicit feedback actively** - Reviews and ratings critical for visibility and trust
+- **Respond to criticism** - Service recovery can convert detractors into promoters
 
 ---
 
-## Appendix: Chart Reference Guide
+## Final Recommendations by Market Type
 
-All data visualizations referenced in this report are available in the `charts/` directory:
+**Entering Baku/Khirdalan (Mature, Saturated):**
+- Only with strong differentiation (unique cuisine, premium positioning, celebrity chef)
+- Significant capital required for customer acquisition in crowded market
+- Focus on underserved niches or white space opportunities
+- Build brand through social media and influencer marketing before launch
 
-- **00_executive_dashboard.png** - Six-panel summary of key metrics
+**Entering Secondary Cities (Emerging, Balanced):**
+- Best risk-adjusted returns for expansion
+- Moderate competition allows easier market entry
+- Growing middle class with increasing delivery adoption
+- Fast-follower strategy with proven concepts works well
+
+**Entering Smaller Cities (Early, Pioneer):**
+- High risk, high potential reward profile
+- May require market education and infrastructure development
+- First-mover advantage significant if executed well
+- Lower competition but also smaller addressable market
+
+**Specialized Positioning (All Markets):**
+- Premium dining (20+ AZN average) underrepresented everywhere
+- Healthy/dietary focus (vegan, keto, allergen-free) virtually absent
+- International cuisines beyond mainstream show white space
+- Ghost kitchen format enables low-cost market testing
+
+---
+
+## Data Appendix
+
+**Dataset Overview:**
+- **Scope**: Complete market coverage of Wolt Azerbaijan platform
+- **Restaurants**: 4,102 venues across 12 cities
+- **Menu Items**: 315,812 items with pricing and descriptions
+- **Customer Reviews**: 841,664 ratings across 3,374 restaurants
+- **Data Collection**: February 2026
+
+**Cities Covered:**
+Baku, Khirdalan, Sumgait, Ganja, Nakhchivan, Khankendi, Shusha, Guba, Gabala, Lankaran, Mingachevir, Shaki
+
+**Chart Reference:**
+All visualizations referenced in this analysis are available in the `charts/` directory:
+- **00_executive_dashboard.png**: Six-panel summary dashboard
 - **01-02**: Market presence and geographic distribution
 - **03-04-12**: Pricing analysis and strategy insights
 - **05-06**: Customer satisfaction and top performers
@@ -277,6 +388,5 @@ All data visualizations referenced in this report are available in the `charts/`
 
 ---
 
-**Report Prepared:** February 2026
-**Data Source:** Wolt Azerbaijan restaurant and menu dataset (453 restaurants, 32,723 menu items)
-**Analysis Coverage:** 10 cities across Azerbaijan with complete restaurant, menu, and customer satisfaction data
+*Report Prepared: February 2026*
+*Analysis: Wolt Azerbaijan food delivery market dataset*
