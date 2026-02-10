@@ -374,6 +374,12 @@ The Azerbaijan food delivery market presents a **mature core with significant ex
 - **Customer Reviews**: 841,664 ratings across 3,374 restaurants
 - **Data Collection**: February 2026
 
+**Data Access:**
+- **Repository**: Core data files (`restaurants.csv`, `menu_items.csv`) included in this repo
+- **Kaggle Dataset**: Complete dataset including combined file available at
+  [https://www.kaggle.com/datasets/ismetsemedov/wolt-restaurants](https://www.kaggle.com/datasets/ismetsemedov/wolt-restaurants)
+- **Note**: The combined denormalized file (`restaurants_with_menu.csv`, 240MB) exceeds GitHub's file size limit and is available on Kaggle
+
 **Cities Covered:**
 Baku, Khirdalan, Sumgait, Ganja, Nakhchivan, Khankendi, Shusha, Guba, Gabala, Lankaran, Mingachevir, Shaki
 
